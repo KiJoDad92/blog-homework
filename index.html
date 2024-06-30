@@ -18,22 +18,22 @@
 
   <header>My First Blog</header>
   <div class="images">
-    <img src="assets/images/istockphoto-525206968-612x612.jpg">
+    <img src="./assets/images/dog.jpg">
+  </div>
     <aside>
       <form>
       <section>
         <h2>Blog Submission</h2>
-          <label for="username">Username</label>
-          <input type="username"  name="place-text" id="Username" />
-          <label for="title">Title</label>
-          <input type="title"  name="place-text" id="Title" />
-          <label for="content">Content</label>
-          <input type="content"  name="place-text" id="Content" />
-          <input type="submit"  name="place-text" id="Content" />
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required >
+        <label for="content">Content:</label>
+        <textarea id="content" name="content" rows="5" required></textarea>
+        <input type="submit" value="Submit">
         </section>
       </form>
     </aside>
-  </div>
 </body>
 </html>
         

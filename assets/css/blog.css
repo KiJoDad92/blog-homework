@@ -79,13 +79,25 @@ ul {
   color: var(--dark);
 }
 
+
 /*
-  IDs
+IDs
 */
-#back {
+#themeSwticher{
   padding: 0.5rem 1rem;
   border-radius: 4px;
   margin-right: 1rem;
+  justify-content: left;
+  text: white;
+  border: groove black;
+  background-color: var(--dark-accent);
+  color: var(--light);
+}
+
+#back{
+  padding: 0.2rem .5rem;
+  border-radius: 4px;
+  margin-left: 70rem;
   justify-content: left;
   text: white;
   border: groove black;
